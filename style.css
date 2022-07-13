@@ -327,10 +327,10 @@ header .btn-start .get-start:hover, footer .btn-start .get-start:hover {
 }
 
 .about-block .about-btn-block .btn-read-more {
+    font-family: 'Quicksand-SemiBold';
     background-color: #FFD7D7;
     border-radius: .125rem;
     font-style: normal;
-    font-weight: 700;
     font-size: 1.2rem;
     line-height: 1rem;
     color: #D43F3F;
@@ -341,10 +341,10 @@ header .btn-start .get-start:hover, footer .btn-start .get-start:hover {
 }
 
 .about-block .about-btn-block .btn-get-started {
+    font-family: 'Quicksand-SemiBold';
     background-color: #D2E1FF;
     border-radius: .125rem;
     font-style: normal;
-    font-weight: 700;
     font-size: 1.2rem;
     line-height: 1rem;
     color: #3A79FF;
@@ -373,7 +373,6 @@ header .btn-start .get-start:hover, footer .btn-start .get-start:hover {
 
 .stats-block .stats-first-block span, .stats-block .stats-second-block span {
     font-style: normal;
-    font-weight: 400;
     font-size: 3rem;
     line-height: 5.1875rem;
     letter-spacing: .03rem;
@@ -383,7 +382,6 @@ header .btn-start .get-start:hover, footer .btn-start .get-start:hover {
     max-width: 40%;
     text-align: end;
     font-style: normal;
-    font-weight: 500;
     font-size: 1.125rem;
     line-height: 1.4375rem;
     letter-spacing: .03rem;
@@ -444,7 +442,6 @@ header .btn-start .get-start:hover, footer .btn-start .get-start:hover {
 
 .blog-block .content-slider-block h2 {
     font-style: normal;
-    font-weight: 400;
     font-size: 2.25rem;
     line-height: 2.8125rem;
     color: #3D4F9F;
@@ -452,29 +449,23 @@ header .btn-start .get-start:hover, footer .btn-start .get-start:hover {
 
 .blog-block .content-slider-block .img-text-block {
     width: 25.5rem;
-    font-weight: 400;
     line-height: 1.6875rem;
     letter-spacing: 0.03rem;
     text-transform: lowercase;
     color: #8D96BD;
 }
 
-.blog-block .content-slider-block .read-now {
+.blog-block .content-slider-block .read-now, .blog-block .content-slider-block span {
+    font-family: 'Quicksand-SemiBold';
     background: #D2E1FF;
     font-style: normal;
-    font-weight: 700;
     font-size: .8125rem;
     line-height: 1rem;
     color: #3A79FF;
 }
 
 .blog-block .content-slider-block span {
-    font-style: normal;
-    font-weight: 700;
-    font-size: .8125rem;
-    line-height: 1rem;
     color: #A6B6DA;
-    
 }
 
 /* FAQ */
@@ -488,7 +479,6 @@ header .btn-start .get-start:hover, footer .btn-start .get-start:hover {
     padding: 2rem 0;
     border-bottom: 1px solid #D8E3FE;
     font-style: normal;
-    font-weight: 500;
     font-size: .9375rem;
     line-height: 1.1875rem;
     letter-spacing: 0.03rem;
